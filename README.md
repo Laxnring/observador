@@ -9,4 +9,6 @@ The api call has been reverse-engineered using the Fiddler Tool with an iOS devi
 Spinning a simple HTTP server using twistd example:
 `twistd -n web --path="./observador"`
 
-If you're reading this, Observador, please change your api calls to control whether a user still has free premium articles left this month.
+# Disclaimer
+I'm not in any way affiliated with Observador, nor do I have any nefarious intent. This small project is intended to highlight a critical flaw in the design of the platform which may affect the outlet's business model. Therefore, and in defense of free speech and the maintenance of one of the most respected Portuguese news outlets, I would want them to fix this flaw in their code. 
+
