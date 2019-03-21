@@ -1,4 +1,4 @@
-# observador
+# Observador
 
 Since the ["Observador"](https://observador.pt/) news outlet doesn't implement proper verification while using its api to fetch articles, this Python snippet uses it to generate a page similar to the outlet's landing page. 
 
