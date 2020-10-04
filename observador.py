@@ -46,10 +46,3 @@ with open("index.html", "w", encoding="utf-8") as text_file:
         text_file.write("<a href='" + str(articles[i]["id"]) +".html" + "'>" + articles[i]["title"] + "</a>" + "\n" + "<br>")
 
 # Incorporar FLASK e passar para o raspberry pi.
-
-# Retirar isto antes de correr.
-from flask import Flask
-app = Flask(__name__)
-@app.route('/')
-def hello_world():
-    return ./index.html
