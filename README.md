@@ -8,6 +8,8 @@ The api call has been reverse-engineered using the Fiddler Tool with an iOS devi
 
 Spinning a simple HTTP server using twistd:
 
+`twistd -n web --path="./observador"`
+
 # Disclaimer
 I'm not in any way affiliated with Observador, nor do I have any nefarious intents. This small project is supposed to highlight a critical flaw in the design of the platform which may affect the outlet's business model. Therefore, and in defense of free speech and the maintenance of one of the most respected Portuguese news outlets, I would prefer to have this flaw in their code fixed over this script being used. 
 
