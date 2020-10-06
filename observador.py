@@ -41,7 +41,7 @@ with open("index.html", "w", encoding="utf-8") as text_file:
         <style>body {font-size:100%;text-align:center;} </style>
         </head>
         <body>
-        <h1>O Observador Pirata</h1>""")
+        <h1>O Observador</h1>""")
     for i in range(0, len(articles)):
         text_file.write("<a href='" + str(articles[i]["id"]) +".html" + "'>" + articles[i]["title"] + "</a>" + "\n" + "<br>")
 
