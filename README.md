@@ -6,7 +6,7 @@ The api call has been reverse-engineered using the Fiddler Tool with an iOS devi
 # Run:
 `python ./observador.py`
 
-Spinning a simple HTTP server using twistd:
+Spinning up a simple HTTP server using twistd:
 
 `twistd -n web --path="./observador"`
 
